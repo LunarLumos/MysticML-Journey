@@ -28,7 +28,7 @@ SELECT
     IF(quantity > 2, 'Discounted', 'No Discount') AS discount_status
 FROM orders;
 
--- Query 2: Use CASE to create a status message
+--  Use CASE to create a status message
 SELECT
     order_id,
     customer_name,
@@ -41,7 +41,7 @@ SELECT
     END AS status_message
 FROM orders;
 
--- Query 3: Use IFNULL() to replace NULL in the `status` column
+--  Use IFNULL() to replace NULL in the `status` column
 SELECT
     order_id,
     customer_name,
@@ -49,7 +49,7 @@ SELECT
     IFNULL(status, 'Not Provided') AS status_updated
 FROM orders;
 
--- Query 4: Use NULLIF() to handle special cases where price_per_unit might be 0
+-- Use NULLIF() to handle special cases where price_per_unit might be 0
 SELECT
     order_id,
     customer_name,
@@ -57,7 +57,7 @@ SELECT
     NULLIF(price_per_unit, 0) AS price_per_unit_checked
 FROM orders;
 
--- Query 5: Combine all control flow functions for a full report
+-- Combine all control flow functions for a full report
 SELECT
     order_id,
     customer_name,
