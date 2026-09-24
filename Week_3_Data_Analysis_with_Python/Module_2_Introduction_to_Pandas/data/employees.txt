@@ -1,0 +1,6 @@
+emp_id|name|department|city|age|salary
+201|Tara|Engineering|Chennai|29|78000
+202|Omar|Sales|Kolkata|34|50000
+203|Priya|HR|Chennai|27|48000
+204|Sameer|Finance|Kolkata|39|99000
+205|Leela|Marketing|Jaipur|31|60000

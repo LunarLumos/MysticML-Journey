@@ -1,0 +1,3 @@
+MysticML Journey - Week 3
+Pandas can read plain text files line by line too.
+Each line of this file becomes one row in a single-column DataFrame.

@@ -1,0 +1,35 @@
+# Core (Weeks 1-4)
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+statsmodels>=0.14
+colorama>=0.4
+jupyter
+
+# Web / scraping (Week 1 Django, Projects)
+Django>=4.2
+requests>=2.31
+beautifulsoup4>=4.12
+
+# Databases (Week 2)
+mysql-connector-python>=8.3
+SQLAlchemy>=2.0
+
+# NLP (Week 4 Module 5, NLP projects)
+nltk>=3.8
+
+# Computer Vision (Week 5)
+opencv-python>=4.9,<5          # OpenCV 5.x drops Haar CascadeClassifier
+# opencv-contrib-python>=4.9  # optional: install INSTEAD of opencv-python to enable cv2.face (LBPH)
+Pillow>=10.0
+scikit-image>=0.22          # optional: offline sample face photo (Week 5)
+
+# Deep Learning (Week 6) - use Python 3.10-3.12
+tensorflow>=2.15
+
+# Optional
+yfinance>=0.2          # Google Stock Price Prediction (live data)
